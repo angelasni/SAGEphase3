@@ -10,7 +10,7 @@
 		<img src="img/logo.svg" alt="">
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li class="active"><a href="#">Home</a></li>
 				<li><a href="#">Projects</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Services</a></li>
@@ -18,13 +18,11 @@
 				<li><a href="#">Get in touch</a></li>
 			</ul>
 		</nav>
-		<aside>
 			<ul>
 				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
 				<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
 				<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 			</ul>
-		</aside>
 	</header>
 	
 	<main>
@@ -68,10 +66,9 @@
 		</section>
 
 		<section>
-			<div> <!--share a left margin so grouped together in a div-->
+			<div> 
 				<p>Current site section contains general information about our latest projects. We are focusing on website and mobile development, UI/UX and branding</p>
 				<h2>Highlighted Projects</h2>
-			</div>
 			<ul>
 				<li> <a href="#"><img src="img/item-3.png" alt=""></a></li>
 				<li> <a href="#"><img src="img/item-2.png" alt=""></a></li>
@@ -79,45 +76,47 @@
 			</ul>
 			<a href="#">Discover more</a>
 			<p>* Site contains some recent projects. Detailed portfolio available upon request</p>
-		</section>
-
-		<section>
-			<img src="img/screenshot.png" alt="">
-			<div>
-				<b class="lead">Featured</b>
-				<a href="#"><h2>Infinity spaces</h2></a>
+			</div>
+		
+			<div> <!--img should be background for text too-->
+				<img src="img/screenshot.png" alt="">
+				<h4>Featured</h4>
+				<a href="#"><h3>Infinity spaces</h3></a>
 				<p>Our self-initiated project.
 				Infinity ∞ is an abstract concept describing something without any limit and is relevant in a number of fields</p>
+				<ul>
+					<li class="active"></li>
+					<li></li>
+				</ul>
 			</div>
-			<ul>
-				<li class="active"></li>
-				<li></li>
-			</ul>
 		</section>
 
 		<section>
+		<div>
 			<h2>Our history</h2>
-			<p>SAGE— is the flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.
+			<p>SAGE— is the flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
 
-			Multi-purpose appreciate it's. Anti mega industry multi-purpose are brighter. Also longer successful classic deal extra vibrant first exclusive. And spacious ultimate secure lasting clinically flip gigantic every outside.
+			<p>Multi-purpose appreciate it's. Anti mega industry multi-purpose are brighter. Also longer successful classic deal extra vibrant first exclusive. And spacious ultimate secure lasting clinically flip gigantic every outside.</p>
 
-			Genuine less effective stimulates effervescent jumbo mouthwatering hello class rich however expensive. Easy mothers can't try finest gentle spring admire dry. Quenches valuable tangy buy will your escape grown millions on pop-top. Waxy included sharpest aroma recommended all can pleasure. However all-over hurry hit than how. Luscious magically colossal whopping it's full-bodied lasting splash don't get more. Sure zippy on flavored luscious spring only.
+			<p>Genuine less effective stimulates effervescent jumbo mouthwatering hello class rich however expensive. Easy mothers can't try finest gentle spring admire dry. Quenches valuable tangy buy will your escape grown millions on pop-top. Waxy included sharpest aroma recommended all can pleasure. However all-over hurry hit than how. Luscious magically colossal whopping it's full-bodied lasting splash don't get more. Sure zippy on flavored luscious spring only.</p>
 
-			Racy challenge listen better go light tasting aromatic thick. Think touch spring now jumbo secret deserve thank-you seeing out. Supreme luscious agree monster economical makes delivers tummy absorbent incredible can quick. Clean shine product sweet choosy need golden</p>
+			<p>Racy challenge listen better go light tasting aromatic thick. Think touch spring now jumbo secret deserve thank-you seeing out. Supreme luscious agree monster economical makes delivers tummy absorbent incredible can quick. Clean shine product sweet choosy need golden</p>
 			<a href="#">Explore more</a>
+		</div>
 
 			<a href="#"><img src="img/SAGEbig.png" alt=""></a>
-
+		<aside>
 			<ul>
 				<li><img src="img/archive2.svg" alt="">
-					<h4>2180</h4>
+					<strong>2 180</strong> <!--doesnt lead a section so not h tag-->
 					<p>Finished Projects</p></li>
 				<li><img src="img/iphone.svg" alt="">
-					<h4>105870</h4>
+					<strong>105 870</strong>
 					<p>Mobile Screens Designed</p></li>
 				<li><img src="img/openletter.svg" alt="">
-					<h4>345850</h4>
+					<strong>345 850</strong>
 					<p>Emails sent</p></li>
+		</aside>
 			</ul>
 		</section>
 
@@ -154,37 +153,36 @@
 			</ul>
 		</section>
 
-		<aside>
+		<section>
 			<div>
-				<h3>This is a call to action area</h3>
+				<h2>This is a call to action area</h2>
 				<p>You can use current block to place some important information</p>
 				<a href="#">Purchase SAGE right now</a>
 			</div>
-		</aside>
+		</section>
 
-		<section> <!--use a div to contain the text in each article together?-->
+		<section> 
 			<h2>Journal</h2>
 			<article>
-				<img src="img/post-it.png" alt="">
-
-				<h3>News</h3>
-				<h4>Flexible multi concept portfolio theme</h4>
+				<figure><img src="img/post-it.png" alt=""></figure>
+				<b class="lead">News</b>
+				<h3>Flexible multi concept portfolio theme</h3>
 				<p>Spicey available value bonus satisfied every limited register. Permanent tough flexible what take mouthwatering. Bigger made quick flexible so guaranteed most open try compact inside.</p>
 				<a href="#">Explore more</a>
 			</article>
 
 			<article>
-				<img src="img/iphonescreen.png" alt="">
-				<h3>Technology</h3>
-				<h4>Hand crafted with love</h4>
+				<figure><img src="img/iphonescreen.png" alt=""></figure>
+				<b class="lead">Technology</b class="lead">
+				<h3>Hand crafted with love</h3>
 				<p>Choice vibrant handcrafted agree compare squeezable spicey vibrant. Our silky newer polished it's confident all lather sold deal class love. Lower to agree quenches dry will. A quickly much discover keeps.</p>
 				<a href="#">Explore more</a>
 			</article>
 
 			<article>
-				<img src="img/desk.png" alt="">
-				<h3>Life, News</h3>
-				<h4>Exclusive and very flexible theme ever</h4>
+				<figure><img src="img/desk.png" alt=""></figure>
+				<b class="lead">Life, News</b>
+				<h3>Exclusive and very flexible theme ever</h3>
 				<p>Whiter guaranteed to sensible stimulates flip choose quickly warranty oily buy money. Pennies quenches polished. Believe neat bigger satisfying awesome natural spectacular healthy deeply.</p>
 				<a href="#">Explore more</a>
 			</article>		
@@ -193,8 +191,14 @@
 	</main>
 		
 		<section> <!--q tag displays inline-->
-			<q>Very much impressed with the quality of this theme and the great support from idealUI</q>
-			<p>John Smith / CEO / International Company</p>
+			<ul>
+				<li><blockquote>"Very much impressed with the quality of this theme and the great support from idealUI</blockquote>
+				<cite>John Smith / CEO / International Company</cite></li>
+				<li><blockquote>"Very much impressed with the quality of this theme and the great support from idealUI</blockquote>
+				<cite>John Smith / CEO / International Company</cite></li>
+				<li><blockquote>"Very much impressed with the quality of this theme and the great support from idealUI</blockquote>
+				<cite>John Smith / CEO / International Company</cite></li>
+			</ul>
 			<nav>
 				<ul>
 					<li class="active"></li>
@@ -230,31 +234,31 @@
 		</section>
 
 	<footer>
-		<section>
+		<div>
 			<h2>Stay connected</h2>
 			<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
 			<input type="email">
-			<a href="#">Sign up</a>
-		</section>
+			<button type="submit">Sign up</button>
+		</div>
 		<aside>
 			<ul>
 				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i>
-					<h3>Facebook</h3>
+					<b class="lead">Facebook</bb class="lead">
 					<p>Become a friend</p>
 					</a>
 				</li>
 				<li><a href="#" target="_blank"><i class="fa fa-twitter"></i>
-					<h3>Twitter</h3>
+					<b class="lead">Twitter</b>
 					<p>Follow us on twitter</p>
 					</a>
 				</li>
 				<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i>
-					<h3>Google+</h3>
+					<b class="lead">Google+</b>
 					<p>Add us to your circle</p>
 					</a>
 				</li>
 				<li><a href="#" target="_blank"><i class="fa fa-pinterest"></i>
-					<h3>Pinterest</h3>
+					<b class="lead">Pinterest</b>
 					<p>Follow our profile</p>
 					</a>
 				</li>
